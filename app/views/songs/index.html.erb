@@ -1,0 +1,5 @@
+<% @songs.each do |song| %>
+
+<%= link_to song.hyphened_link, song_path(song) %>
+
+<% end %>
