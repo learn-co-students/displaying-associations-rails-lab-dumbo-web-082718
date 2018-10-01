@@ -25,3 +25,6 @@ Song.create(title: "One Mic", artist_id: 3)
 Song.create(title: "Big Poppa", artist_id: 4)
 Song.create(title: "Hypnotize", artist_id: 4)
 Song.create(title: "Machine-gun Funk", artist_id: 4)
+
+Artist.create(name: "Daft Punk")
+Song.create(title: "The Grid")

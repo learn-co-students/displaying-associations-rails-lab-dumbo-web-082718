@@ -6,4 +6,8 @@ class Song < ActiveRecord::Base
     @song.title
   end
 
+  def artist_name
+    self.artist.name
+  end
+
 end
